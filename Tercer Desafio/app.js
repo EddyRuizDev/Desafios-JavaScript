@@ -50,5 +50,6 @@ switch(opcion){
             break;
 
         default: window.alert("Ingresaste un valor invalido, ingresa del 1 al 4 en el menu para operar");
+        break;
     
 }
