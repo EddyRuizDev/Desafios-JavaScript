@@ -1,8 +1,8 @@
 
 
 let año = prompt("¿Que año es? Ingrese el año: ");
-let mes = prompt("¿Que mes es? Ingrese un numero del 1 al 12: ");
-let  dia = prompt("¿Que dia es? Ingrese un numero del 1 al 31: ");
+let mes = Number(prompt("¿Que mes es? Ingrese un numero del 1 al 12: "));
+let  dia = Number(prompt("¿Que dia es? Ingrese un numero del 1 al 31: "));
 
 
 if((mes <1 || mes>12) || (dia<1 || dia>31) )
